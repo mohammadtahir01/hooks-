@@ -1,0 +1,31 @@
+
+.ip{
+  height: 200px;
+  width: 60%;
+  background-color: yellow;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ip2{
+  height: 70px;
+  width: 60%;
+  background-color: blue;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ip3{
+  height: 50px;
+  width: 50%;
+  background-color: red;
+  border-radius: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
