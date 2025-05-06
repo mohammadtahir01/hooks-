@@ -1,16 +1,20 @@
 
-
+import { useState } from "react";
+import LoginBtn from './LoginBtn';
+import Logout from './LogOut';
 
 import './App.css'
 
 function App() {
- 
+ const [LogIn,setLogIn] = useState(false)
 
-  return (
-<div>
-    hello
-    </div>
-  )
+  if(LogIn){
+    return(
+    <LoginBtn/>
+    )
+  }else{
+    return <Logout/>
+  }
  
 }
 
