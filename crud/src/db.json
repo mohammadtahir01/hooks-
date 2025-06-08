@@ -1,0 +1,18 @@
+{
+  "Hotel": [
+    {
+      "Name": "Tahir",
+      "Age": 21,
+      "Addhar": 1234567890,
+      "Address": "Roh",
+      "id": "0e30"
+    },
+    {
+      "id": "6ccd",
+      "name": "Md Tahir",
+      "age": "2003",
+      "city": "bhopal",
+      "roll": "123"
+    }
+  ]
+}

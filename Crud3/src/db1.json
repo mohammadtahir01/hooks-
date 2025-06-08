@@ -1,0 +1,32 @@
+{
+  "student": [
+    {
+      "id": "ccb1",
+      "Name": "tahir",
+      "Roll": "21",
+      "City": "nawadah",
+      "Age": "21"
+    },
+    {
+      "id": "0f8d",
+      "Name": "tahir",
+      "Roll": "21",
+      "City": "nawadah",
+      "Age": "21"
+    },
+    {
+      "id": "0c37",
+      "Name": "rahul",
+      "Roll": "22",
+      "City": "roh",
+      "Age": "12"
+    },
+    {
+      "id": "b16f",
+      "Name": "rahul",
+      "Roll": "23",
+      "City": "bihar",
+      "Age": "24"
+    }
+  ]
+}

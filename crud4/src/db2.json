@@ -1,0 +1,25 @@
+{
+  "Hotel": [
+    {
+      "id": "1",
+      "Name": "Tahir",
+      "Address": "Roh",
+      "Addhar": "1234456789",
+      "Mobile": "6201322486"
+    },
+    {
+      "id": "edc9",
+      "name": "Md Tahir husaain",
+      "add": "bhopal",
+      "addres": "4567899",
+      "mobile": "06201322486"
+    },
+    {
+      "id": "ec65",
+      "name": "Md Tahir",
+      "add": "bhopal",
+      "addres": "4567899",
+      "mobile": "0987654"
+    }
+  ]
+}
