@@ -1,6 +1,9 @@
 import { useState,useEffect } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom"; //edit
 const Update=()=>{
+
+const navigate = useNavigate();  //edit
 
 const[mydata,setMydata]=useState([]);
 const loadData=async()=>{
@@ -20,7 +23,12 @@ const recDelete=async(id)=>{
     alert("data successfully deleted");
     loadData();
 }
-  let sno=0;
+
+const reEdit=(id)=>{  //edit
+  navigate(`/edit/${id}`);
+}
+
+let sno=0;
 const ans=mydata.map((key)=>{
     sno++;
     return(
@@ -32,7 +40,7 @@ const ans=mydata.map((key)=>{
         <td>{key.City}</td>
         <td>{key.Age}</td>
         <td>
-            <button>Edit</button>
+            <button onClick={()=>reEdit(key.id)}>Edit</button>
         </td>
         <td>
             <button onClick={()=>{recDelete(key.id)}}>Delete</button>
