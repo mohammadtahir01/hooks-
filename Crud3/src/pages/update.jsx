@@ -13,7 +13,7 @@ const loadData=async()=>{
     setMydata(response.data)
   }
 
-  useEffect(()=>{
+useEffect(()=>{
     loadData();
 },[])
 

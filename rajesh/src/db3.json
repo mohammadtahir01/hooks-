@@ -11,12 +11,6 @@
       "LaptopName": "Lenovo",
       "Model": "2020",
       "Price": "30000"
-    },
-    {
-      "id": "1aa5",
-      "LaptopName": "Dell",
-      "Model": "2019",
-      "Price": "40000"
     }
   ]
 }
